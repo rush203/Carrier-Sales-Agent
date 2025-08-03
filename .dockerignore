@@ -1,0 +1,34 @@
+# flyctl launch added from .venv\.gitignore
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv\**\*
+
+# flyctl launch added from lib\jackson-core-2.x\.gitignore
+# use glob syntax.
+lib\jackson-core-2.x\**\syntax: glob
+lib\jackson-core-2.x\**\*.class
+lib\jackson-core-2.x\**\*~
+lib\jackson-core-2.x\**\*.bak
+lib\jackson-core-2.x\**\*.off
+lib\jackson-core-2.x\**\*.old
+lib\jackson-core-2.x\**\*.java.orig
+lib\jackson-core-2.x\**\.DS_Store
+
+# building
+lib\jackson-core-2.x\target
+lib\jackson-core-2.x\**\.mvn\wrapper\maven-wrapper.jar
+
+# Eclipse
+lib\jackson-core-2.x\**\.classpath
+lib\jackson-core-2.x\**\.project
+lib\jackson-core-2.x\**\.settings
+
+# IDEA
+lib\jackson-core-2.x\**\*.iml
+lib\jackson-core-2.x\**\*.ipr
+lib\jackson-core-2.x\**\*.iws
+lib\jackson-core-2.x\.idea
+lib\jackson-core-2.x\**\dependency-reduced-pom.xml
+
+# Other/local
+lib\jackson-core-2.x\gh-workflows
+fly.toml
