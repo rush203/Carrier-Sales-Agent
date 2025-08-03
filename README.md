@@ -176,6 +176,7 @@ fly deploy
 | **🌐 Production** | [acme-logistics.fly.dev](https://acme-logistics.fly.dev/) | ✅ Live |
 | **❤️ Health Check** | [acme-logistics.fly.dev/health](https://acme-logistics.fly.dev/health) | ✅ Healthy |
 | **📚 API Docs** | [acme-logistics.fly.dev/docs](https://acme-logistics.fly.dev/docs) | ✅ Available |
+| **📊 Live Data** | [Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1Z2V3vJMgfDi71eYxU2-7iC0Yj8eE-vNseIssjiNUxA0/edit?gid=1898833320#gid=1898833320) | ✅ Active |
 
 </div>
 
@@ -398,6 +399,26 @@ graph LR
 - **📈 Charts Worksheet**: Chart metadata and file paths
 - **📋 Summary Statistics**: Key performance indicators
 
+### 🔗 **Live Data Dashboard**
+
+<div align="center">
+
+[![Google Sheets](https://img.shields.io/badge/Google%20Sheets-Live%20Data%20Dashboard-blue?style=for-the-badge&logo=googlesheets)](https://docs.google.com/spreadsheets/d/1Z2V3vJMgfDi71eYxU2-7iC0Yj8eE-vNseIssjiNUxA0/edit?gid=1898833320#gid=1898833320)
+
+**📊 [View Live HappyRobot Data](https://docs.google.com/spreadsheets/d/1Z2V3vJMgfDi71eYxU2-7iC0Yj8eE-vNseIssjiNUxA0/edit?gid=1898833320#gid=1898833320)**
+
+*Real-time webhook data from your deployed application*
+
+</div>
+
+**Current Data Summary:**
+- ✅ **13 Records** processed successfully
+- 📅 **Latest Entry**: 2025-08-03T18:51:09.385626
+- 🎯 **Booking Intent**: Mixed (yes/no/maybe)
+- 💰 **Rate Range**: $1,250 - $3,000
+- 😊 **Sentiment**: Positive, Neutral, Negative
+- 📞 **Call Outcomes**: Booked, Declined, Pending
+
 ---
 
 ## 🛠️ Development Workflow
@@ -544,6 +565,7 @@ graph LR
 [![Deploy Now](https://img.shields.io/badge/Deploy%20Now-Fly.io-blue?style=for-the-badge&logo=fly)](https://fly.io)
 [![View Demo](https://img.shields.io/badge/View%20Demo-Live%20API-orange?style=for-the-badge&logo=globe)](https://acme-logistics.fly.dev/)
 [![Documentation](https://img.shields.io/badge/Documentation-API%20Docs-green?style=for-the-badge&logo=swagger)](https://acme-logistics.fly.dev/docs)
+[![Live Data](https://img.shields.io/badge/Live%20Data-Google%20Sheets-red?style=for-the-badge&logo=googlesheets)](https://docs.google.com/spreadsheets/d/1Z2V3vJMgfDi71eYxU2-7iC0Yj8eE-vNseIssjiNUxA0/edit?gid=1898833320#gid=1898833320)
 
 ---
 
@@ -552,6 +574,7 @@ graph LR
 **Deployment URL**: https://acme-logistics.fly.dev/  
 **Health Check**: https://acme-logistics.fly.dev/health  
 **API Documentation**: https://acme-logistics.fly.dev/docs  
+**Live Data Dashboard**: https://docs.google.com/spreadsheets/d/1Z2V3vJMgfDi71eYxU2-7iC0Yj8eE-vNseIssjiNUxA0/edit?gid=1898833320#gid=1898833320  
 **Repository**: https://github.com/rush203/Carrier-Sales-Agent
 
 ---
